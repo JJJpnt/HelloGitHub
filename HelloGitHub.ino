@@ -1,5 +1,8 @@
 #include "Arduino.h"
 //The setup function is called once at startup of the sketch
+
+const char* hello = "Hello Git";
+
 void setup()
 {
 // Add your initialization code here
@@ -9,4 +12,7 @@ void setup()
 void loop()
 {
 //Add your repeated code here
+
+	Serial.print(hello);
+
 }
